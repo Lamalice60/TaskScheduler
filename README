@@ -15,6 +15,7 @@ OVERVIEW:
  7. Task IDs and Control Points for error handling and watchdog timer
  8. Local Task Storage pointer (allowing use of same callback code for multiple tasks)
  9. Layered task prioritization
+10. Support for std::functions (ESP8266 only)
 
 Scheduling overhead: between 15 and 18 microseconds per scheduling pass (check the benchmark example).
 
